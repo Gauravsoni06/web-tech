@@ -1,0 +1,124 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CoWIN</title>
+    <link rel="stylesheet" href="cowin.css">
+</head>
+<body>
+    <div class="main">
+        <table class="bodyt">
+            <tr>
+                <div class="flex-container-title">
+                    <div >
+                        <img id="emb" src="emblem-gov.svg">
+                        <a class="head" href="https://www.india.gov.in/">Ministry of Health and Family Welfare</a>
+                    </div>
+                    <div >
+                        <a class="head" href="temp2.html">Dashboard</a>
+                    </div>
+                  
+                </div>
+            </tr>
+           
+            <tr>
+                <div  >
+                    <center><h1>Fill Details</h1></center>
+                </div>
+            </tr>
+            <tr>
+                <div class="divf">
+                    <form  method="get"  action="">
+            
+                        <p>
+                        <label>Name
+                        <input type="text" name="customer_name" required>
+                        </label> 
+                        </p>
+                        
+                        <p>
+                        <label>Phone 
+                        <input type="number" name="phone_number">
+                        </label>
+                        </p>
+                        
+                        <p>
+                        <label>Email 
+                        <input type="email" name="email_address">
+                        </label>
+                        </p>
+                        <p>
+                            <label>Location
+                            <input type="text" name="" required list="Location">
+                            </label>
+                            
+                            <datalist id="Location">
+                                <option value="Bangalore">
+                                <option value="Pune">
+                                <option value="Mumbai">
+                                <option value="Delhi">
+                                <option value="jaipur">
+                                <option value="Mumbai">
+                            </datalist>
+                        </p>
+                        <fieldset>
+                        <legend>Gender</legend>
+                        <p><label> <input type="radio" name="gender" required value="car"> Male </label></p>
+                        <p><label> <input type="radio" name="gender" required value="van"> Female </label></p>
+                        <p><label> <input type="radio" name="gender" required value="tuktuk"> Others </label></p>
+                        </fieldset>
+                        
+                        <fieldset>
+                            <legend>Type</legend>
+                            <p><label> <input type="checkbox" name="extras" value="baby"> Paid </label></p>
+                            <p><label> <input type="checkbox" name="extras" value="wheelchair"> Free </label></p>
+                            </fieldset>
+                        
+                        <p>
+                        <label>Schedule date
+                        <input type="datetime-local" name="pickup_time" required>
+                        </label>
+                        </p>
+                            
+                        <p>
+                        <label>Vaccine Choice
+                        <select id="Vaccine Choice" name="Vaccine choice">
+                        <option value="" selected="selected">Select One</option>
+                        <option value="office" >Covaxine</option>
+                        <option value="town_hall" >Covisheild</option>
+                     
+                        </select>
+                        </label> 
+                        </p>
+                        
+                        
+                        
+                        <p>
+                        
+                        </label>
+                        </p>
+                        <input type="reset" value="reset" >
+                        <p><input type="submit" value="submit" ></p>
+                        
+                    </form>
+              
+                </div>
+                <div>
+            
+                </div>
+                <div>
+            
+                </div>
+            </tr>
+            <tr>
+                <img src="detail.jpeg">
+            </tr>
+            <tr>
+                <img src="foot.jpeg">
+            </tr>
+        </table>
+        </div>
+</body>
+</html>
